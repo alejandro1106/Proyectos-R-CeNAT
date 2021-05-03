@@ -1,0 +1,44 @@
+---
+title: "Proyecto Taller R"
+author: "Alejandro Rodríguez Badilla"
+date: "05/02/2021"
+output: rmdformats::readthedown
+---
+
+```{r global_options, echo=FALSE}
+
+knitr::opts_chunk$set(message=FALSE, warning=FALSE, fig.width=11)
+
+```
+
+# Cuadro de datos personales
+
+```{r}
+# Se cargan los datos
+library(readr)
+datos <- read_csv("DATA.csv")
+
+# Se despliegan las 6 primeras filas del cuadro de datos
+head(datos)
+```
+# Resumen de los datos
+
+```{r}
+# Se despliega un resumen del cuadro de datos
+summary(datos)
+```
+El cuadro de datos incluye el nombre, apellido, país, edad, peso y altura de 1000 personas diferentes. Las edades oscilan entre 18 y 75 años, siendo la edad promedio 46.05 años. El peso mínimo es de 40.29, mientras que el máximo es de 149.94 y el promedio es igual a 94.77 kg. Las alturas parten de 140.1 cm hasta 210 cm, con un promedio de 176 cm.
+
+# Gráfico de las edades promedio por país
+
+```{r}
+# Se obtiene la edad promedio por país
+edad_promedio <- tapply(datos$age, datos$country, mean)
+
+# Se grafican las edades promedio
+plot(edad_promedio)
+```
+
+* Las edades promedio presentan una dispersión alta
+* La mayor parte de las edades promedio se encuentran aproximadamente entre 40 y 50 años 
+* Solo dos países presentan una edad promedio menor a 20 años mientras que para solo un país el promedio es mayor a 70
