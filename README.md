@@ -2,40 +2,46 @@
 
 ## Proyectos realizados durante el taller "Introducción a la Programación con R", ofrecido por el Centro Nacional de Alta Tecnología (CeNAT) en abril de 2021.
 
-*Sesión 1: Conociendo R y RStudio
 
-Ejercicios_1.R
+Sesión 1: Conociendo R y RStudio
 
-*Sesión 2: Dataframes
+  Ejercicios_1.R
 
-Ejercicios_2.R
 
-*Sesión 3: Manipulación de datos
+Sesión 2: Dataframes
 
-Ejercicios_3.R
+  Ejercicios_2.R
 
-*Sesión 4: COntrol de flujo y vectorización
 
-Ejercicios_4.R
+Sesión 3: Manipulación de datos
 
-*Sesión 5: Transformación de datos con Apply y Plyr	
+  Ejercicios_3.R
 
-Ejercicios_5.R
 
-Sesion_5.R
+Sesión 4: Control de flujo y vectorización
 
-*Sesión 6: Rmarkdown e informes autoreproducibles
+  Ejercicios_4.R
 
-Ejercicios_6.Rmd
 
-DATA.csv (datos utilizados en script Ejercicios_6.Rmd)
+Sesión 5: Transformación de datos con Apply y Plyr	
 
-Output del script Ejercicios_6.Rmd:
+  Ejercicios_5.R
 
--Base_downcute.html
+  Sesion_5.R
 
--Base_material.html
 
--Base_readthedown.html
+Sesión 6: Rmarkdown e informes autoreproducibles
 
-Sesion_6.R
+  Ejercicios_6.Rmd
+  
+  DATA.csv (datos utilizados en script Ejercicios_6.Rmd)
+
+  Outputs del script Ejercicios_6.Rmd:
+
+    -Base_downcute.html
+
+    -Base_material.html
+
+    -Base_readthedown.html
+
+  Sesion_6.R
