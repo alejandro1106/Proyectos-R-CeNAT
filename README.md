@@ -30,7 +30,7 @@
 -Sesion_5.R
 
 
-### Sesión 6: Rmarkdown e informes autoreproducibles### 
+### Sesión 6: Rmarkdown e informes autoreproducibles
 
 -Ejercicios_6.Rmd
   
